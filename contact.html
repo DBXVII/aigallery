@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="AI Gallery Website">
+    <meta name="keywords" content="AI Gallery">
+    <meta name="author" content="Dean Bromfield">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>AI Gallery</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!--The code for the hamburger menu was sourced from https://alvarotrigo.com/blog/hamburger-menu-css/ -->
+        <section class="top-nav">
+            <div>
+                <h1 class="logo"><a href="index.html">AI Gallery</a></h1>
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+          </label>
+            <ul class="menu">
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#prices">Prices</a></li>
+                <li><a href="contact.html">Sign Up</a></li>
+            </ul>
+          </section>
+
+    </header>
+    <main>
+        <!--Hero Image-->
+        <div class="hero">
+        </div>
+
+        <section>
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="contact">
+                <h2>Submit!</h2>
+                <label for="fname">First Name</label>
+                <input class="text-input" id="fname" name="first_name" type="text" required>
+
+                <label for="lname">Last Name</label>
+                <input class="text-input" id="lname" name="last_name" type="text" required>
+
+                <label for="email">Email Address</label>
+                <input class="text-input" type="email" id="email" name="email_address" required>
+
+                <label for="road">Character</label>
+                <input type="radio" id="Character" name="Feature" value="Character" required>
+                <label for="trail">Animal</label>
+                <input type="radio" id="Animal" name="Feature" value="Animal" required>
+                <label for="both">Landscape</label>
+                <input type="radio" id="Landscape" name="Feature" value="Landscape" required>
+
+                <input class="submit-button" type="submit" value="Submit!">
+            </form>
+        </section>
+
+
+        
+        <!--Footer-->
+        <footer>
+            <ul class="footer-nav">
+                <li><a href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page, opens on a new tab."><i class="fa fa-facebook"></i></a>
+                </li>
+                <li><a href="https://twitter.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter profile, opens on a new tab."><i class="fa fa-twitter"></i></a>
+                </li>
+                <li><a href="https://youtube.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Youtube page, opens on a new tab."><i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://instagram.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram profile, opens on a new tab."><i
+                            class="fa fa-instagram"></i></a>
+                </li>
+            </ul>
+
+            <div class="footer-bottom">
+                <p>AI Gallery</p>
+                <br>
+                <p></p>
+                <br>
+                <p>Cork</p>
+                <br>
+                <p>Ireland</p>
+                <br>
+                <p>085 1231234</p>
+            </div>
+
+
+
+        </footer>
+        <!-- font awesome script -->
+        <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
