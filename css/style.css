@@ -15,7 +15,7 @@
 
 .logo {
     float: left;
-    margin-left: 1200px;
+    margin-left: 20px;
 }
 
 
@@ -26,7 +26,7 @@
 }
 
 .logo a:hover {
-    color: #fff;
+    color: blue;
 }
 
 
@@ -47,6 +47,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background: white;
   }
 
   .menu > li {
@@ -59,12 +60,12 @@
 
   .menu a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: 600;
   }
 
   .menu a:hover {
-    color: #fff;
+    color: blue;
   }
 
   /* The code for the hamburger menu was sourced from https://alvarotrigo.com/blog/hamburger-menu-css/ */
@@ -121,27 +122,29 @@
   
   
 
-/* AI Image */
+/* Hero Image */
 
 .hero {
-    max-width: 100%;
+   
     height: 90vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/mm.jpg);
-    background-position: top;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://media.discordapp.net/attachments/1046505637170913320/1046893659313946684/DBXV_futuristic_cyberpunk_london_8d645b4b-4089-4371-b009-a7be96c84357.png?width=1365&height=1365);
+    background-position: center;
     background-size: cover;
     
 }
+
 
 /* About */
 
 .about {
     position: relative;
     top: 30vh;
-    left: 20px;
+    left: 50px;
     max-width: 500px;
     color: #fff;
-    background-color: rgba(44, 47, 56, 0.241);
-    border-radius: 0.30rem;
+    background-color: transparent;
+    font-weight: bold;
 }
 
 .about p {
@@ -150,14 +153,14 @@
     margin: 0 3rem;
 }
 
-/* Features*/
+/* AI Art*/
 
-.features-text {
+.ai-text {
     text-align: center;
 
 }
 
-.features-container {
+.ai-container {
     width: 90%;
     max-width: 1100px;
     margin: 2rem auto;
@@ -166,163 +169,42 @@
     grid-gap: 25px;
 }
 
-.features-container h2 {
-    text-align: center;
-    color: #fff;
-    margin-top: 1rem;
-}
 
-.features-ai {
+.ai-one {
     height: 600px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3),
-            rgba(0, 0, 0, 0.3)), url(../images/haircut.jpg);
+            rgba(0, 0, 0, 0.3)), url('https://media.discordapp.net/attachments/1046505637170913320/1046887547650965574/DBXV_medieval_spaceship_bb68a5cc-56a8-47e4-83ec-e493916da781.png');
     border-radius: .30em;
     margin-left: .5rem;
     background-size: cover;
-    background-position: right;
+    background-position: center;
+    animation-name: zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
-.features-theme {
+.ai-two {
     height: 600px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3),
-            rgba(0, 0, 0, 0.3)), url(../images/beardcut.jpg);
+            rgba(0, 0, 0, 0.3)), url('https://media.discordapp.net/attachments/1046505637170913320/1056403218952880168/DBXV_cyberpunk_silver_surfer_367c2942-8d39-4d83-ab15-42c34f2ca2d4.png');
     border-radius: .30em;
     background-size: cover;
     background-position: right;
 }
 
-.features-character {
+.ai-three {
     height: 600px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3),
-            rgba(0, 0, 0, 0.3)), url(../images/shave.jpg);
+            rgba(0, 0, 0, 0.3)), url('https://media.discordapp.net/attachments/1046505637170913320/1046834280162136115/DBXV_black_man_walking_on_sun_f4907e45-ef78-48a4-85fd-23c22ff63640.png?width=1365&height=1365');
     border-radius: .30em;
     margin-right: .5rem;
     background-size: cover;
     background-position: top;
 }
 
-/* themes*/
+/* Games */
 
-.themes-text {
-    text-align: center;
-}
-
-.themes-row {
-    width: 90%;
-    max-width: 1100px;
-    margin: 2rem auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 25px;
-}
-
-.themes-col {
-    background: grey;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 10% 15%;
-    border-radius: .30em;
-    text-align: center;
-}
-
-.themes-col p {
-    font-size: 22px;
-}
-
-.themes-col h3 {
-    font-size: 40px;
-    margin: 20px 0 40px;
-    font-weight: 500;
-}
-
-.themes-col ul li {
-    list-style: none;
-}
-
-
-/* Footer */
-
-footer {
-    background: #black;
-    padding: 1em;
-}
-
-.footer-nav {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem 0;
-}
-
-.footer-nav li {
-    margin: 0 10px;
-    font-size: 1.8em;
-}
-
-.footer-nav a {
-    text-decoration: none;
-    color: black;
-    padding: 5px;
-}
-
-.footer-nav a:hover {
-    color: #fff;
-}
-
-.footer-bottom {
-    background: #a3b18a;
-    width: 100%;
-    padding: 40px;
-}
-
-.footer-bottom p {
-    text-align: center;
-    font-size: 18px;
-    text-transform: capitalize;
-}
-
-.footer-bottom a {
-    text-decoration: none;
-    color: black;
-}
-
-.text-input {
-    background: transparent;
-    color: #BFB7B6;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #BFB7B6;
-    border-radius: 2px;
-}
-
-.text-input:hover {
-    border-color: #fff;
-}
-
-/* Back to top button*/
-
-#back-top {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: black;
-  color: white;
-  padding: 15px;
-  border-radius: .30em;
-  font-size: 18px;
-}
-
-#back-top:hover {
-  background-color: #BFB7B6;
-}
-/* Prices section */
-
-.prices-text {
+.games-text {
     text-align: center;
 }
 
@@ -357,20 +239,7 @@ footer {
     list-style: none;
 }
 
-/* Testimonials section */
 
-.testimonials-text {
-    text-align: center;
-}
-
-.testimonials-row {
-    width: 90%;
-    max-width: 1100px;
-    margin: 2rem auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 25px;
-}
 
 .rate {
     background: #a3b18a;
@@ -387,7 +256,7 @@ footer {
 /* Footer */
 
 footer {
-    background: #000000;
+    background: black;
     padding: 1em;
 }
 
@@ -411,11 +280,11 @@ footer {
 }
 
 .footer-nav a:hover {
-    color: #fff;
+    color: blue;
 }
 
 .footer-bottom {
-    background: white;
+    background: #C0C0C0;
     width: 100%;
     padding: 40px;
 }
@@ -428,7 +297,7 @@ footer {
 
 .footer-bottom a {
     text-decoration: none;
-    color: black;
+    color: grey;
 }
 
 .text-input {
@@ -445,6 +314,27 @@ footer {
     border-color: #fff;
 }
 
+/* Back to top button*/
+
+#back-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: black;
+  padding: 15px;
+  border-radius: .30em;
+  font-size: 18px;
+}
+
+#back-top:hover {
+  background-color: #BFB7B6;
+}
+
 /* Contact section */
 
 .contact {
@@ -459,7 +349,7 @@ footer {
 }
 
 .contact>h2 {
-    color: #a3b18a;
+    color: black;
     margin-bottom: 20px;
 }
 
@@ -514,8 +404,8 @@ footer {
       margin: 0;
       padding: 0.5em 0;
       width: 100%;
-      color: white;
-      background-color: #a3b18a;
+      color: black;
+      background-color: grey;
     }
     .menu > li:not(:last-child) {
       border-bottom: 1px solid #444;
