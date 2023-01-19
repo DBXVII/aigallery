@@ -47,7 +47,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background: white;
+   
   }
 
   .menu > li {
@@ -88,7 +88,7 @@
   .menu-button::before,
   .menu-button::after {
     display: block;
-    background-color: black;
+    background-color: white;
     position: absolute;
     height: 4px;
     width: 30px;
@@ -126,21 +126,23 @@
 
 .hero {
    
-    height: 40vh;
+    height: 95vh;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://media.discordapp.net/attachments/1046505637170913320/1046893659313946684/DBXV_futuristic_cyberpunk_london_8d645b4b-4089-4371-b009-a7be96c84357.png?width=1365&height=1365);
+    background-image:url('https://media.discordapp.net/attachments/1046505637170913320/1046893659313946684/DBXV_futuristic_cyberpunk_london_8d645b4b-4089-4371-b009-a7be96c84357.png?width=1365&height=1365');
     background-position: center;
     background-size: cover;
+    background-color: grey ;
     
 }
 
+ 
 
 /* Page info */
 
 .info {
     position: relative;
-    top: 30vh;
-    left: 50px;
+    top: 80vh;
+    left: 45px;
     max-width: 600px;
     color: #fff;
     background-color: transparent;
@@ -181,7 +183,21 @@
     animation-name: zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-}
+    animation-name: ai-one-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+     }
+    
+    
+    /* Creates the level of zoom for hero image */
+    @keyframes ai-one-zoom {
+        from{
+            transform: scale(0.5);
+        }
+        to{
+            transform: scale(1);
+        }
+    }
 
 .ai-two {
     height: 600px;
@@ -190,7 +206,22 @@
     border-radius: .30em;
     background-size: cover;
     background-position: right;
-}
+    animation-name: ai-two-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+     }
+    
+    
+    /* Creates the level of zoom for hero image */
+    @keyframes ai-two-zoom {
+        from{
+            transform: scale(0.5);
+        }
+        to{
+            transform: scale(1);
+        }
+    }
+
 
 .ai-three {
     height: 600px;
@@ -200,11 +231,26 @@
     margin-right: .5rem;
     background-size: cover;
     background-position: top;
-}
+    animation-name: ai-three-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+     }
+    
+    
+    /* Creates the level of zoom for hero image */
+    @keyframes ai-three-zoom {
+        from{
+            transform: scale(0.5);
+        }
+        to{
+            transform: scale(1);
+        }
+    }
+
 
 /* Gaming */
 
-.gaming-text {
+.games-text {
     text-align: center;
 }
 
@@ -215,7 +261,22 @@ iframe.center {
   margin-left: auto;
   margin-right: auto;
   border-radius: 0.30em;
-}
+  animation-name: iframecenter-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+     }
+    
+    
+    /* Creates the level of zoom for hero image */
+    @keyframes iframecenter-zoom {
+        from{
+            transform: scale(0.5);
+        }
+        to{
+            transform: scale(1);
+        }
+    }
+
 
 
 
@@ -282,40 +343,40 @@ footer {
 
 /* Back to top button*/
 
-#back-top {
+#myBtn {
   display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: black;
-  color: black;
-  padding: 15px;
-  border-radius: .30em;
-  font-size: 18px;
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: black; 
+  color: white; 
+  cursor: pointer;
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px; 
 }
 
-#back-top:hover {
-  background-color: #BFB7B6;
+#myBtn:hover {
+  background-color: #555; 
 }
-
 /* Contact section */
 
 .contact {
-    margin: 150px 10% 0 0;
+    margin: 10px 10% 0 0;
     color: #fff;
     background-color: #75737321;
-    max-width: 400px;
+    max-width: 300px;
     position: absolute;
     left: 10%;
-    top: 10%;
+    top: 20%;
     padding: 20px;
 }
 
 .contact>h2 {
-    color: black;
+    color: White;
     margin-bottom: 20px;
 }
 
@@ -325,14 +386,14 @@ footer {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #a3b18a;
-    color: #435058;
+    background-color: black;
+    color: white;
     display: block;
 }
 
 .submit-button:hover {
-    background-color: #BFB7B6;
-    color: #f16c6b;
+    background-color: grey;
+    color: blue;
 }
 
 /* Media queries */
@@ -350,7 +411,6 @@ footer {
       width: 100%;
       justify-content: center;
       align-items: center;
-      color: black;
     }
     #menu-toggle ~ .menu li {
       height: 0;
@@ -379,12 +439,18 @@ footer {
     }
   }
    
+  /* Gallery Images */
   .aione{
-    width: 100%;
+    width: 100%;;
+   object-fit: contain;
+   border-radius: 40em;
 
    }
 
    .aitwo{
     width: 100%;
+    object-fit: contain;
+   border-radius: 40rem;
+
 
    }
