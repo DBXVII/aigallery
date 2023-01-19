@@ -37,7 +37,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: black;
-    height: 50px;
+    height: 40px;
     padding: 1em;
   }
   
@@ -152,7 +152,7 @@
 .info p {
     letter-spacing: .1rem;
     text-align: center;
-    margin: 0 3rem;
+    margin: 0 5rem;
 }
 
 /* AI Art*/
@@ -376,7 +376,7 @@ footer {
 }
 
 .contact>h2 {
-    color: White;
+    color: black;
     margin-bottom: 20px;
 }
 
