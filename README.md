@@ -60,6 +60,7 @@
 
 - Code Institute.
 - W3Schools.
+- Code Institute students/slack.
 
 ---
 
