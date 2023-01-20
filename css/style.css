@@ -286,9 +286,10 @@ iframe.center {
   margin-right: auto;
   border-radius: 0.30em;
   animation-name: iframecenter-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-     }
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  }
+     
     
     
     /* Creates the level of zoom for hero image */
