@@ -4,6 +4,11 @@
 ---
 
 ## Features
+-AI Art Showcase.
+-Gaming video showcase.
+-Gallery.
+-Submit details for updates page.
+-Intended as a project I can build upon through next project.
 
 ---
 
@@ -21,23 +26,24 @@
 - [CSS3]
 - [Font Awesome]
 - [Github, Giptod and Git]
+-Javascript for the Top button.
 
 ---
 
-## Validator Testing
+## Validator
 
-- The code for all pages was tested against <a href="https://validator.w3.org/">W3C Markup validation service.</a>
-- The code for the CSS file was tested against <a href="https://jigsaw.w3.org/css-validator/">W3C CSS validation service.</a>
+- The code for all html pages had been tested using W3C Markup validation service.
+- The code for the CSS file had been tested using W3C CSS validation service.
 
 ---
 
 ## Testing
 
-- I used the Chrome Developer Tool to check the different viewport sizes for computer views tablet views and mobile views.
+- The Chrome Developer Tool had been used throughout the project to check the different viewport sizes for computer views tablet views and mobile views.
 - Navigation is easy to understand.
 - The footer section provide used with links to any social media sites and means of contact.
 - Tested the form.
-- Runs well on different s
+- Runs well on different device views.
 
 ---
 ### Acknowledgements
