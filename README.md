@@ -1,17 +1,23 @@
-# DBXV GAMES & AI ART
+<h1 align="center">DBXV GAMES & AI ART</h1>
+
+---
+
+
+<h4 align="center"><img src="docs-readme/Multi view.PNG" alt="Mulit device viewalt="site image"></h4>
+
+---
+
+<h3><a href="https://dbxvii.github.io/dbxvaigallery-games/" target= "_blank">Website live.</a></h3>
 
 ---
 
 ## Features
 
 - AI Art Showcase.
-- Gaming video showcase.
+- Gaming videos showcase.
 - Gallery.
 - Submit details for updates page.
-- Intended as a project I can build upon through next project.
-
----
-<h3><a href="https://dbxvii.github.io/dbxvaigallery-games/" target= "_blank">Website live.</a></h3>
+- Intended as a project I can build upon throughout my projects.
 
 ---
 
@@ -23,11 +29,12 @@
 ---
 
 ## Technologies used
+-Languages: 
 
 - HTML 5
 - CSS3
 - Font Awesome
-- Github, Giptod and Git
+- Github, Giptod and Git.
 -Javascript for the Top button.
 
 ---
@@ -57,11 +64,11 @@
 
 ### Resources
 
-  * Code Institute
-  * W3Schools - which helped me greatly to set this whole site up
-  * Gitpod used as primary
-  * W3C markup validation service
-  * Google Fonts - Used to import font (Oswald)
-  * Chrome Devtools - Used to debug the code, make sure the site was responsive
-  * Am I responsive? - Used to create main image used on README](https://ui.dev/amiresponsive)
+  * Code Institute.
+  * W3Schools - which helped me greatly to set this whole site up.
+  * Gitpod used as primary coding software.
+  * W3C markup validation service.
+  * Google Fonts - Used to import font (Oswald).
+  * Chrome Devtools - Used to debug the code, to make sure the site was responsive.
+  * Am I responsive? - Used to create image used in readme document. 
   
