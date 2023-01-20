@@ -3,11 +3,12 @@
 ---
 
 ## Features
--AI Art Showcase.
--Gaming video showcase.
--Gallery.
--Submit details for updates page.
--Intended as a project I can build upon through next project.
+
+- AI Art Showcase.
+- Gaming video showcase.
+- Gallery.
+- Submit details for updates page.
+- Intended as a project I can build upon through next project.
 
 ---
 <h3><a href="https://dbxvii.github.io/dbxvaigallery-games/" target= "_blank">Website live.</a></h3>
@@ -24,10 +25,10 @@
 
 ## Technologies used
 
-- [HTML 5](https://en.wikipedia.org/wiki/HTML5) - The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.
-- [CSS3]
-- [Font Awesome]
-- [Github, Giptod and Git]
+- HTML 5
+- CSS3
+- Font Awesome
+- Github, Giptod and Git
 -Javascript for the Top button.
 
 ---
