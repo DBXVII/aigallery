@@ -1,6 +1,5 @@
 # DBXV GAMES & AI ART
 
-
 ---
 
 ## Features
@@ -9,6 +8,9 @@
 -Gallery.
 -Submit details for updates page.
 -Intended as a project I can build upon through next project.
+
+---
+<h3><a href="https://dbxvii.github.io/dbxvaigallery-games/" target= "_blank">Website live.</a></h3>
 
 ---
 
@@ -55,11 +57,11 @@
 
 ### Resources
 
-  * [Code Institute]
-  * [W3Schools - which helped me greatly to set this whole site up]
-  * [Gitpod used as primary]
-  * [W3C markup validation service]
-  * [Google Fonts - Used to import font (Oswald)]
-  * [Chrome Devtools - Used to debug the code, make sure the site was responsive]
-  * [Am I responsive? - Used to create main image used on README](https://ui.dev/amiresponsive)
+  * Code Institute
+  * W3Schools - which helped me greatly to set this whole site up
+  * Gitpod used as primary
+  * W3C markup validation service
+  * Google Fonts - Used to import font (Oswald)
+  * Chrome Devtools - Used to debug the code, make sure the site was responsive
+  * Am I responsive? - Used to create main image used on README](https://ui.dev/amiresponsive)
   
