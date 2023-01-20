@@ -122,7 +122,7 @@
   
   
 
-/*Hero Img*/
+/*H AI Img*/
 
 .hero {
    
@@ -137,12 +137,12 @@
 
  
 
-/* Page info */
+/* info */
 
 .info {
     position: relative;
-    top: 80vh;
-    left: 45px;
+    top: 170px;
+    right: 80px;
     max-width: 600px;
     color: #fff;
     background-color: transparent;
@@ -152,7 +152,7 @@
 .info p {
     letter-spacing: .1rem;
     text-align: center;
-    margin: 0 5rem;
+    margin: 0 8rem;
 }
 
 /* AI Art*/
@@ -174,8 +174,8 @@
 
 .ai-one {
     height: 600px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
-            rgba(0, 0, 0, 0.3)), url('https://media.discordapp.net/attachments/1046505637170913320/1046887547650965574/DBXV_medieval_spaceship_bb68a5cc-56a8-47e4-83ec-e493916da781.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0),
+            rgba(0, 0, 0, 0.0)), url('https://media.discordapp.net/attachments/1046505637170913320/1046887547650965574/DBXV_medieval_spaceship_bb68a5cc-56a8-47e4-83ec-e493916da781.png');
     border-radius: .30em;
     margin-left: .5rem;
     background-size: cover;
@@ -201,7 +201,7 @@
 
 .ai-two {
     height: 600px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0),
             rgba(0, 0, 0, 0.3)), url('https://media.discordapp.net/attachments/1046505637170913320/1056403218952880168/DBXV_cyberpunk_silver_surfer_367c2942-8d39-4d83-ab15-42c34f2ca2d4.png');
     border-radius: .30em;
     background-size: cover;
@@ -225,8 +225,8 @@
 
 .ai-three {
     height: 600px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
-            rgba(0, 0, 0, 0.3)), url('https://media.discordapp.net/attachments/1046505637170913320/1046834280162136115/DBXV_black_man_walking_on_sun_f4907e45-ef78-48a4-85fd-23c22ff63640.png?width=1365&height=1365');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0),
+            rgba(0, 0, 0, 0.0)), url('https://media.discordapp.net/attachments/1046505637170913320/1046834280162136115/DBXV_black_man_walking_on_sun_f4907e45-ef78-48a4-85fd-23c22ff63640.png?width=1365&height=1365');
     border-radius: .30em;
     margin-right: .5rem;
     background-size: cover;
@@ -327,12 +327,12 @@ iframe.center {
 
 .contact {
     margin: 10px 10% 0 0;
-    color: #fff;
+    color: white;
     background-color: #75737321;
     max-width: 300px;
     position: absolute;
     left: 10%;
-    top: 20%;
+    top: 30%;
     padding: 20px;
 }
 
@@ -488,6 +488,7 @@ footer {
     width: 100%;;
    object-fit: contain;
    border-radius: 40em;
+   image-resolution: 300dpi;
 
    }
 
@@ -495,6 +496,16 @@ footer {
     width: 100%;
     object-fit: contain;
    border-radius: 40rem;
+   image-resolution: 300dpi;
+
+
+   }
+
+   .aithree{
+    width: 100%;
+    object-fit: contain;
+   border-radius: 40rem;
+   image-resolution: 300dpi;
 
 
    }
