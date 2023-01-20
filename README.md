@@ -23,7 +23,7 @@
 
 ## Content
 
-- The code for top button source: https://www.w3schools.com/
+- The code for top button source: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
 - The code to make header and icons sourced and adjusted from the Love Running project.
 - The code for the menu source: https://alvarotrigo.com/blog/hamburger-menu-css/
 ---
