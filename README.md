@@ -20,7 +20,6 @@
 - The code for top button source: https://www.w3schools.com/
 - The code to make header and icons sourced and adjusted from the Love Running project.
 - The code for the menu source: https://alvarotrigo.com/blog/hamburger-menu-css/
-- 
 ---
 
 ## Technologies used
