@@ -26,23 +26,13 @@
 - The code for top button source: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
 - The code to make header and icons sourced and adjusted from the Love Running project.
 - The code for the menu source: https://alvarotrigo.com/blog/hamburger-menu-css/
----
 
-## Technologies used
--Languages: 
+ ---
 
-- HTML 5
-- CSS3
-- Font Awesome
-- Github, Giptod and Git.
--Javascript for the Top button.
+ ## Validation
 
----
-
-## Validator
-
-- The code for all html pages had been tested using W3C Markup validation service.
-- The code for the CSS file had been tested using W3C CSS validation service.
+- The code for all html pages had been tested using W3C Markup validation.
+- The code for the CSS file had been tested using W3C CSS validation.
 
 ---
 
@@ -55,6 +45,17 @@
 - Runs well on different device views.
 
 ---
+ 
+ ## Technologies used
+ 
+-Languages: 
+
+- HTML 5
+- CSS3
+- Font Awesome
+- Github, Giptod and Git.
+-Javascript for the Top button.
+ 
 ### Acknowledgements
 
 - Code Institute.
