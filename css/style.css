@@ -9,7 +9,7 @@
     font-family: 'Oswald', sans-serif;
 }
 
-/* Header */
+/*Header*/
 
 
 
@@ -122,7 +122,7 @@
   
   
 
-/*H AI Img*/
+/*AI Image on main page and background of updates page*/
 
 .hero {
    
@@ -189,7 +189,7 @@
      }
     
     
-    /* Creates the level of zoom for hero image */
+    /*Creates the level of zoom for the AI image on main page*/
     @keyframes ai-one-zoom {
         from{
             transform: scale(0.5);
@@ -212,7 +212,7 @@
      }
     
     
-    /* Creates the level of zoom for hero image */
+    /*Creates the level of zoom for AI image on main page*/
     @keyframes ai-two-zoom {
         from{
             transform: scale(0.5);
@@ -237,7 +237,7 @@
      }
     
     
-    /* Creates the level of zoom for hero image */
+    /*Creates the level of zoom for AI image on main page*/
     @keyframes ai-three-zoom {
         from{
             transform: scale(0.5);
@@ -261,7 +261,7 @@
        }
       
       
-      /* Creates the level of zoom for hero image */
+      /*Creates the level of zoom for hero image*/
       @keyframes ai-four-zoom {
           from{
               transform: scale(0.5);
@@ -272,13 +272,13 @@
       }
 
 
-/* Gaming */
+/*Gaming*/
 
 .games-text {
     text-align: center;
 }
 
-/* Video */
+/*Video*/
 
 iframe.center {
   display: block;
@@ -292,7 +292,7 @@ iframe.center {
      
     
     
-    /* Creates the level of zoom for hero image */
+    /* Creates the level of zoom for video 1 */
     @keyframes iframecenter-zoom {
         from{
             transform: scale(0.5);
@@ -313,7 +313,7 @@ iframe.center {
          }
         
         
-        /* Creates the level of zoom for hero image */
+        /* Creates the level of zoom for video 2 */
         @keyframes iframevid2-zoom {
             from{
                 transform: scale(0.5);
@@ -324,7 +324,7 @@ iframe.center {
         }
         
     
-/* Update*/
+/* Update page*/
 
 .contact {
     margin: 10px 10% 0 0;
