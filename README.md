@@ -24,14 +24,14 @@
 ## Content
 
 - The code for top button source: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
-- The code to make header and icons sourced and adjusted from the Love Running project.
+- The code to make header, icons and animation for images sourced and adjusted from the Love Running project.
 - The code for the menu source: https://alvarotrigo.com/blog/hamburger-menu-css/
 
  ---
 
  ## Validation
 
-- The code for all html pages had been tested using W3C Markup validation.
+- The code for all html files had been tested using W3C Markup validation.
 - The code for the CSS file had been tested using W3C CSS validation.
 
 ---
@@ -59,7 +59,7 @@
 ### Acknowledgements
 
 - Code Institute.
-- W3Schools.
+- W3Schools (which informed me the frameborder attribute is obsolete so had to remove it from my code).
 - Code Institute students/slack.
 
 ---
